@@ -3,6 +3,9 @@ let contact = {
     phone: "321-321-4321",
     email: "test@test.com"
 }
-for(et key in contact){
-    // Code goes here
+
+let result = '';
+for(let key in contact){
+    result = `${key} : ${contact[key]}`; 
+    console.log(result);
 }

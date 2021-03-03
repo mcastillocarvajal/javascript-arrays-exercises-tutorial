@@ -10,3 +10,9 @@ let tasks = [
 ];
 
 //your code here
+
+const undoneTasks = tasks.filter(task => {
+    return task.done == true; 
+});
+
+console.log(undoneTasks);
